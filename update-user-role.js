@@ -6,7 +6,7 @@ const admin = require('firebase-admin');
 
 // Initialize Firebase Admin (requires service account key)
 // Download the service account key from Firebase Console > Project Settings > Service Accounts
-const serviceAccount = require('./arcdb-firebase-adminsdk.json');
+const serviceAccount = require('./arcdb-d57fa-firebase-adminsdk.json');
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount)
