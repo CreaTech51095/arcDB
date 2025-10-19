@@ -1,6 +1,6 @@
 {
-  "name": "artifacts-scanner-functions",
-  "description": "Firebase Functions for Archaeological Artifacts Scanner",
+  "name": "arcdb-functions",
+  "description": "Firebase Functions for arcDB - Archaeological Artifacts Scanner",
   "scripts": {
     "build": "tsc",
     "build:watch": "tsc --watch",

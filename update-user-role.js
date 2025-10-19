@@ -5,8 +5,8 @@
 const admin = require('firebase-admin');
 
 // Initialize Firebase Admin (requires service account key)
-// For now, we'll use the Firebase CLI's credentials
-const serviceAccount = require('./eshaan-createch-firebase-adminsdk.json');
+// Download the service account key from Firebase Console > Project Settings > Service Accounts
+const serviceAccount = require('./arcdb-firebase-adminsdk.json');
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount)
